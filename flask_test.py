@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Emil Berg Halldórsson, sem er bestur í heimi</p>"
+    return "<center><p>Emil Berg Halldórsson, sem er bestur í heimi</p><center>"
 app.run()
